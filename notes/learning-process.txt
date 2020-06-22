@@ -1,0 +1,43 @@
+< algorithm learning process >
+
+^ learn about heap
+- the tools of 'stacks' & 'ques'
+- then go into linked list & hash tables
+    - create hash table from scratch
+
+^ review a few sorting strategies
+- quick sort | heap sort
+
+^ data structure knowledge
+- arrays | linked lists | stacks | ques
+- sets | maps | binary trees | heaps | graphs
+
+^ algorithms & type of data structure
+- sorting | searching | binary search
+- divide-and-conquer 
+- dynamic programming and memorization
+- greedy | recursion
+- graph traversal | breath-first | depth-first
+
+^ test case
+- testing & error checking
+- implement scenarios of error boundaries
+    - input & algorithm
+- malform input & how your code handles them
+
+^ other notes
+- binary search vs binary tree
+    - two different things
+- _lodash
+    - handling algorithm/strategy
+    - buit-in tool/library
+- start-up company usage
+    - time > space
+        - growth rate of application
+    - begins to focus on time for load efficiency
+    - then handles space for 'x' amount of users
+- sweep strategy | splitter strategy
+
+^ new thoughts
+- hashed tables is what google search uses
+    - O(1); instant
