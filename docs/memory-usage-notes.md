@@ -136,3 +136,33 @@ Memory Usage
     - e.g: `arraySplit(arrayView(arr), ...args)`
   - transparently inject a different data structure
     - gave back better performance gaurantees?
+
+---
+
+## Array Partition
+
+- edit the data structure
+  - that returns the portion of array
+  - left (-1) | middle (0) | right (1)
+- the focus is the split strategy
+  - left: returns the start of the array & up to the before the pivot point
+    - a sub-array, everything just to the left of pivot
+  - middle: returns the element/item at the pivot point
+    - can use the ArrayView get method (optional)
+  - right: returns the start after the pivot point & up to the end of the array
+    - a sub-array, everything just to the right of pivot
+- moving the index logic
+  - understand the true index from original array
+  - adjust with the new index relative to ArrayView
+
+---
+
+- solving an algorithm problem
+  - different solutions provided alternative approaches
+    - enabling to modularize into sub-problems
+    - the smaller the small problems
+    - the more surface area 
+      - to test case, re-use, & documentation
+- opens up to pattern design
+  - recognize patterns in problems
+  - building a class fn that solves it

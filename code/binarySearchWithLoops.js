@@ -59,7 +59,6 @@ function binarySearchWhileLoop (
     while (left <= right) {
         let middle = Math.floor( (right + left) / 2 );
 
-        // -1 | 0 | 1
         switch ( compare( elm,arr[middle] ) ) {
             case -1:
                 right = middle - 1;
@@ -74,7 +73,7 @@ function binarySearchWhileLoop (
     }
 
     console.log( 'nope', arr[elm] )
-    return -1; 
+    return -1;
 };
 
 console.log(

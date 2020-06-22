@@ -2,7 +2,7 @@ const defaultCompare = (a,b) => {
     return (a > b) ? 1 : (a < b) ? -1 : 0;
 };
 
-/* rules: O(n) | time | no loops | recursion */
+/* rules: O(n) | time | only recursion */
 
 // OPTION - 1
 
